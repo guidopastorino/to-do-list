@@ -135,6 +135,7 @@ body{
 }
 
 .task > .task__info{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +149,9 @@ body{
 }
 
 .task > .task__info > span{
+    width: 100%;
     font-family: var(--fnfa-text);
+    word-break: break-word;
 }
 
 .btn--clear-item{
