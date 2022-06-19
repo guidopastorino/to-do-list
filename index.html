@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <title>To Do List</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="container__title">
+      <span>To Do List</span>
+    </div>
+
+    <div class="container__item-add">
+      <input id="ipt" type="text" placeholder="Tarea" autocomplete="off">
+      <button id="add-item" class="btn btn--add"><i class="bi bi-plus"></i></button>
+      <button id="clear-list" class="btn btn--clear"><i class="bi bi-trash3-fill"></i></button>
+    </div>
+
+    <div class="container__items-list">
+      <span class="text-empty">No hay tareas hasta el momento</span>
+
+      <ul class="list">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
